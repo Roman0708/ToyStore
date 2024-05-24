@@ -1,9 +1,8 @@
-/**
- * main
- */
+import Controller.Controller;
+
 public class main {
 
     public static void test(String[] args) {
-        System.out.println("hello world");
+        Controller controller = new Controller();
     }
 }

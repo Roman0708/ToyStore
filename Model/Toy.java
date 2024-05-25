@@ -4,16 +4,16 @@ public class Toy {
     private int id;
     private String name;
     private int quantity;
-    private int chance;
+    private float chance;
 
-    public Toy(int id, String name, int quantity, int chance) {
+    public Toy(int id, String name, int quantity, float chance) {
         this.id = id;
         this.name = name;
         this.quantity = quantity;
         this.chance = chance;
     }
 
-    public int getChance() {
+    public float getChance() {
         return chance;
     }
 
@@ -25,7 +25,7 @@ public class Toy {
         return id;
     }
 
-    public void setChance(int chance) {
+    public void setChance(float chance) {
         this.chance = chance;
     }
 

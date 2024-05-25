@@ -17,6 +17,14 @@ public class Toy {
         return chance;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public int getId() {
+        return id;
+    }
+
     public void setChance(int chance) {
         this.chance = chance;
     }

@@ -34,7 +34,10 @@ public class Toy {
     }
 
     public void increaseQuantity(int amount) {
-        this.quantity += amount;
+        if (amount>0) {
+            this.quantity += amount;
+        }
+        else System.out.println("Введите целое положительно число");; //Добавить обработку некорректного ввода
     }
 
 }

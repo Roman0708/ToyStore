@@ -33,5 +33,9 @@ public class Toy {
         return name;
     }
 
+    public void increaseQuantity(int amount) {
+        this.quantity += amount;
+    }
+
 }
 
